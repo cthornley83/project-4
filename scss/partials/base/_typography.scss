@@ -1,3 +1,18 @@
+
+* {
+    font-family: 'Lato', sans-serif;
+    color: $gun-metal-grey;
+    box-sizing: border-box;
+  }
+  
+  p {
+    line-height: 1.45em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
 .headline-primary {
     color:$sea-green;
     margin-left: 10px;
@@ -22,3 +37,4 @@
     border-left: 8px solid #58e1c1;
     border-radius: 5px;
   }
+ 

@@ -1,39 +1,39 @@
-/* line 2, ../../project-4/scss/partials/componants/_base-styles.scss */
+/* line 2, ../../project-4/scss/partials/base/_typography.scss */
 * {
   font-family: 'Lato', sans-serif;
   color: #777;
   box-sizing: border-box;
 }
 
-/* line 8, ../../project-4/scss/partials/componants/_base-styles.scss */
+/* line 8, ../../project-4/scss/partials/base/_typography.scss */
 p {
   line-height: 1.45em;
 }
 
-/* line 12, ../../project-4/scss/partials/componants/_base-styles.scss */
+/* line 12, ../../project-4/scss/partials/base/_typography.scss */
 a {
   text-decoration: none;
 }
 
-/* line 1, ../../project-4/scss/partials/base/_typography.scss */
+/* line 16, ../../project-4/scss/partials/base/_typography.scss */
 .headline-primary {
   color: #56e1c1;
   margin-left: 10px;
 }
 
-/* line 6, ../../project-4/scss/partials/base/_typography.scss */
+/* line 21, ../../project-4/scss/partials/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
   color: #777;
 }
 
-/* line 11, ../../project-4/scss/partials/base/_typography.scss */
+/* line 26, ../../project-4/scss/partials/base/_typography.scss */
 .link {
   color: #51ddfc;
   font-weight: 700;
 }
 
-/* line 16, ../../project-4/scss/partials/base/_typography.scss */
+/* line 31, ../../project-4/scss/partials/base/_typography.scss */
 .blockquote {
   font-size: 1.5em;
   font-weight: 300;
