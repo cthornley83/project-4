@@ -1,12 +1,8 @@
 
 //partial imports
-@import 
-        "partials/utilities/variables", 
-        "partials/base/typography", 
-        "partials/componants/grid",
-        "partials/componants/button",
-        "partials/componants/form",
-        "partials/componants/images",
-        "partials/componants/navigation",
-        "partials/componants/media-queries";
-
+@import  "partials/utilities/index.scss",
+         "partials/base/index.scss",
+         "partials/componants/index.scss";
+        
+       
+       
