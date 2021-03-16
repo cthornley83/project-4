@@ -1,0 +1,372 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+/* line 9, ../../project-4/scss/styles.scss */
+* {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+/* line 15, ../../project-4/scss/styles.scss */
+p {
+  line-height: 1.45em;
+}
+
+/* line 19, ../../project-4/scss/styles.scss */
+a {
+  text-decoration: none;
+}
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+/* line 28, ../../project-4/scss/styles.scss */
+.headline-primary {
+  color: #56e1c1;
+  margin-left: 10px;
+}
+
+/* line 33, ../../project-4/scss/styles.scss */
+.headline-secondary {
+  font-weight: 300;
+  color: #777;
+}
+
+/* line 38, ../../project-4/scss/styles.scss */
+.link {
+  color: #51ddfc;
+  font-weight: 700;
+}
+
+/* line 43, ../../project-4/scss/styles.scss */
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
+}
+
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+/* line 58, ../../project-4/scss/styles.scss */
+.container {
+  padding: 0 10px;
+}
+
+/* line 62, ../../project-4/scss/styles.scss */
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+/* line 68, ../../project-4/scss/styles.scss */
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* line 76, ../../project-4/scss/styles.scss */
+.theme.col-1 {
+  background-color: #927bc1;
+}
+
+/* line 80, ../../project-4/scss/styles.scss */
+.theme.col-2 {
+  background-color: #fd7856;
+}
+
+/* line 84, ../../project-4/scss/styles.scss */
+.theme.col-3 {
+  background-color: #deb2ee;
+}
+
+/* line 88, ../../project-4/scss/styles.scss */
+.theme.col-4 {
+  background-color: #7ee6fd;
+}
+
+/* line 92, ../../project-4/scss/styles.scss */
+.theme.col-5 {
+  background-color: #88d9a0;
+}
+
+/* line 96, ../../project-4/scss/styles.scss */
+.theme.col-6 {
+  background-color: #4da2bb;
+}
+
+/* line 100, ../../project-4/scss/styles.scss */
+.theme.col-7 {
+  background-color: #ec9fa3;
+}
+
+/* line 104, ../../project-4/scss/styles.scss */
+.theme.col-8 {
+  background-color: #fd9f85;
+}
+
+/* line 108, ../../project-4/scss/styles.scss */
+.theme.col-9 {
+  background-color: #e4757a;
+}
+
+/* line 112, ../../project-4/scss/styles.scss */
+.theme.col-10 {
+  background-color: #63cc82;
+}
+
+/* line 116, ../../project-4/scss/styles.scss */
+.theme.col-11 {
+  background-color: #51ddfc;
+}
+
+/* line 120, ../../project-4/scss/styles.scss */
+.theme.col-12 {
+  background-color: #80e8d1;
+}
+
+/* line 124, ../../project-4/scss/styles.scss */
+.card {
+  flex-basis: 100%;
+}
+
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+/* line 133, ../../project-4/scss/styles.scss */
+.nav {
+  padding-left: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 140, ../../project-4/scss/styles.scss */
+.nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+}
+
+/* line 151, ../../project-4/scss/styles.scss */
+.nav-link:hover {
+  color: #fff;
+  background-color: #56e1c1;
+}
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+/* line 161, ../../project-4/scss/styles.scss */
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+/* line 171, ../../project-4/scss/styles.scss */
+.default {
+  background-color: #51ddfc;
+}
+
+/* line 175, ../../project-4/scss/styles.scss */
+.error {
+  background-color: #e4757a;
+}
+
+/* line 179, ../../project-4/scss/styles.scss */
+.info {
+  background-color: #927bc1;
+}
+
+/* line 183, ../../project-4/scss/styles.scss */
+.success {
+  background-color: #63cc82;
+}
+
+/* line 187, ../../project-4/scss/styles.scss */
+.warning {
+  background-color: #fd7856;
+}
+
+/* ============================================= */
+/*              Forms                            */
+/* ============================================= */
+/* line 196, ../../project-4/scss/styles.scss */
+.form {
+  flex-basis: 100%;
+}
+
+/* line 200, ../../project-4/scss/styles.scss */
+.input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid #56e1c1;
+}
+
+/* line 209, ../../project-4/scss/styles.scss */
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+/* line 223, ../../project-4/scss/styles.scss */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 232, ../../project-4/scss/styles.scss */
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+/* line 242, ../../project-4/scss/styles.scss */
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+@media (min-width: 768px) {
+  /* line 254, ../../project-4/scss/styles.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 261, ../../project-4/scss/styles.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 267, ../../project-4/scss/styles.scss */
+  .row {
+    flex-direction: row;
+  }
+  /* line 271, ../../project-4/scss/styles.scss */
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+  /* line 278, ../../project-4/scss/styles.scss */
+  [class^=col] + [class^=col] {
+    margin-left: 10px;
+  }
+  /* line 282, ../../project-4/scss/styles.scss */
+  .col-1 {
+    flex-basis: 8.33%;
+  }
+  /* line 286, ../../project-4/scss/styles.scss */
+  .col-2 {
+    flex-basis: 16.67%;
+  }
+  /* line 290, ../../project-4/scss/styles.scss */
+  .col-3 {
+    flex-basis: 25.00%;
+  }
+  /* line 294, ../../project-4/scss/styles.scss */
+  .col-4 {
+    flex-basis: 33.33%;
+  }
+  /* line 298, ../../project-4/scss/styles.scss */
+  .col-5 {
+    flex-basis: 41.67%;
+  }
+  /* line 302, ../../project-4/scss/styles.scss */
+  .col-6 {
+    flex-basis: 50.00%;
+  }
+  /* line 306, ../../project-4/scss/styles.scss */
+  .col-7 {
+    flex-basis: 58.33%;
+  }
+  /* line 310, ../../project-4/scss/styles.scss */
+  .col-8 {
+    flex-basis: 66.67%;
+  }
+  /* line 314, ../../project-4/scss/styles.scss */
+  .col-9 {
+    flex-basis: 75.00%;
+  }
+  /* line 318, ../../project-4/scss/styles.scss */
+  .col-10 {
+    flex-basis: 83.33%;
+  }
+  /* line 322, ../../project-4/scss/styles.scss */
+  .col-11 {
+    flex-basis: 91.67%;
+  }
+  /* line 326, ../../project-4/scss/styles.scss */
+  .col-12 {
+    flex-basis: 100%;
+  }
+  /* line 330, ../../project-4/scss/styles.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 336, ../../project-4/scss/styles.scss */
+  .nav-link {
+    flex-basis: 100px;
+  }
+  /* line 340, ../../project-4/scss/styles.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+  /* line 344, ../../project-4/scss/styles.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+  /* line 348, ../../project-4/scss/styles.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
