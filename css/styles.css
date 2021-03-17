@@ -514,29 +514,54 @@ template {
   border-radius: 5px;
 }
 
-/* line 11, ../../project-4/scss/partials/componants/_button.scss */
+/* line 14, ../../project-4/scss/partials/componants/_button.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 15, ../../project-4/scss/partials/componants/_button.scss */
+/* line 16, ../../project-4/scss/partials/componants/_button.scss */
+.default:hover {
+  background-color: #b5f1fe;
+}
+
+/* line 22, ../../project-4/scss/partials/componants/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 19, ../../project-4/scss/partials/componants/_button.scss */
+/* line 24, ../../project-4/scss/partials/componants/_button.scss */
+.error:hover {
+  background-color: #f5cacc;
+}
+
+/* line 29, ../../project-4/scss/partials/componants/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 23, ../../project-4/scss/partials/componants/_button.scss */
+/* line 31, ../../project-4/scss/partials/componants/_button.scss */
+.info:hover {
+  background-color: #af9ed1;
+}
+
+/* line 36, ../../project-4/scss/partials/componants/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 27, ../../project-4/scss/partials/componants/_button.scss */
+/* line 38, ../../project-4/scss/partials/componants/_button.scss */
+.success:hover {
+  background-color: #9ddfb0;
+}
+
+/* line 43, ../../project-4/scss/partials/componants/_button.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 45, ../../project-4/scss/partials/componants/_button.scss */
+.warning:hover {
+  background-color: #fea088;
 }
 
 /* line 1, ../../project-4/scss/partials/componants/_form.scss */

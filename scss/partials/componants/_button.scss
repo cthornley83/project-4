@@ -1,29 +1,48 @@
 .btn {
     margin-top: 15px;
     width: 100%;
-    color: #fff;
+    color: $snowwhite;
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
   }
   
+  
+  
+  
   .default {
     background-color: $sky-blue;
+    &:hover{
+      background-color:lighten($sky-blue, 20% );
+    }
   }
+  
   
   .error {
     background-color: $girly-pink;
+    &:hover{
+      background-color:lighten($girly-pink, 20% );
+    }
   }
   
   .info {
     background-color: $candy-purple;
+    &:hover{
+      background-color:lighten($candy-purple, 10% );
+    }
   }
   
   .success {
     background-color: #63cc82;
+    &:hover{
+      background-color:lighten(#63cc82, 15% );
+    }
   }
   
   .warning {
     background-color: #fd7856;
+    &:hover{
+      background-color:lighten( #fd7856, 10% );
+    }
   }
